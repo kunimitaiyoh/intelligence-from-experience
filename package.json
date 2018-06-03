@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prettier": "prettier --write ./**/*.md",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kunimitaiyoh/intelligence-from-experience/issues"
   },
-  "homepage": "https://github.com/kunimitaiyoh/intelligence-from-experience#readme"
+  "homepage": "https://github.com/kunimitaiyoh/intelligence-from-experience#readme",
+  "devDependencies": {
+    "prettier": "^1.13.4"
+  }
 }

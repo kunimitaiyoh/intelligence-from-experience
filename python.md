@@ -30,3 +30,11 @@ class FooTestCase(unittest.TestCase):
         # 例外を発生させるには、その例外を生成して side_effect に追加する
         bar.side_effect = ValueError('あ')
 ```
+
+## ファイルのあるディレクトリのパスの取得
+
+```python
+import os
+
+os.path.dirname(os.path.abspath(__file__))
+```
